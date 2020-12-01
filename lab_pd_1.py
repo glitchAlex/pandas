@@ -1,7 +1,7 @@
 import pandas as pd
 
 #input
-file_path = 'C:\DEV\\transactions.csv'
+file_path = 'transactions.csv'
 df = pd.read_csv(file_path, index_col=0)
 
 #main
